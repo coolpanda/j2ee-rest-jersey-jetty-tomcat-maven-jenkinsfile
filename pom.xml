@@ -405,9 +405,8 @@
 					</execution>
 				</executions>
 			</plugin>
+			<!--
 			<plugin>
-				<!-- https://github.com/mulesoft/raml-for-jax-rs/issues/89 -->
-				<!-- https://github.com/mulesoft/raml-for-jax-rs/issues/84 -->
 				<groupId>org.raml.plugins</groupId>
 				<artifactId>jaxrs-raml-maven-plugin</artifactId>
 				<executions>
@@ -420,6 +419,7 @@
 					</execution>
 				</executions>
 			</plugin>
+		        -->
 			<plugin>
 				<!-- http://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+Maven -->
 				<groupId>org.sonarsource.scanner.maven</groupId>
